@@ -7,17 +7,14 @@ application =
 {
 	content =
 	{
-		width = 320,
-		height = 480, 
-		scale = "letterbox",
-		fps = 60,
+		fps = 30,
+		width = 360,
+		height = 640, 
+		scale = "letterbox", --zoomStretch letterbox
 		
-		--[[
 		imageSuffix =
 		{
-			    ["@2x"] = 2,
-			    ["@4x"] = 4,
+			    ["@2x"] = 2
 		},
-		--]]
 	},
 }
